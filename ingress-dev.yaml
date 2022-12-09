@@ -11,7 +11,7 @@ spec:
   - host: a481059493aa64f0cbed5c89d4eb6498-1066689816.us-west-2.elb.amazonaws.com
     http:
       paths:
-      - path: /dev
+      - path: /
         pathType: Prefix
         backend:
           service:
